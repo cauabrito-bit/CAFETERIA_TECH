@@ -14,7 +14,9 @@ public class Produto {
 		if (precoProduto <= 0.0 ) {
 			System.out.println("VALOR DE CADASTRO INVALIDO");
 		}
+		else{
 			this.precoProduto = precoProduto;
+		}
 	}
 	
 	public String getNomeProduto() {
